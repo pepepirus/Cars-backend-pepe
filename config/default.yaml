@@ -1,0 +1,15 @@
+api:
+  identifier: 'cars-catalog'
+  port: 5001
+
+logger:
+  options:
+    level: trace
+
+mongodb:
+  url: 'mongodb://127.0.0.1:27017'
+  database: 'catalog'
+  timeout: 10000
+  options:
+    useUnifiedTopology: true
+    useNewUrlParser: true
